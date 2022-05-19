@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HomeWork1 {
+public class CalculatroTest {
 
     //napisz program ktory poprosi uzytkownika o 2 liczby , a nastepnie wykona na nich podstawowe operacje matematyczne
 
