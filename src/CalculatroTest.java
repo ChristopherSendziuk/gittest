@@ -11,11 +11,12 @@ public class CalculatroTest {
         System.out.println("Prosze, podaj druga liczbe");
         int secondNumber = scanner.nextInt();
 
-        int addition = firstNumber + secondNumber;
-        int subtraction = firstNumber - secondNumber;
-        int multiplication = firstNumber * secondNumber;
-        int division = firstNumber/secondNumber;
-        int mod = secondNumber%firstNumber;
+        Calculator calculator = new Calculator();
+        int addition = calculator.add(firstNumber,secondNumber);
+        int subtraction = calculator.sub(firstNumber,secondNumber);
+        int multiplication = calculator.multi(firstNumber,secondNumber);
+        int division = calculator.division(firstNumber,secondNumber);
+        int mod = calculator.mod(firstNumber,secondNumber);
 
         System.out.println("Wynik Dodawania: " + addition);
         System.out.println("Wynik odejmowania: " + subtraction);
