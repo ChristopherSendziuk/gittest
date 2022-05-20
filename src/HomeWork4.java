@@ -2,12 +2,17 @@ public class HomeWork4 {
 
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
         Student adam = new Student();
         adam.imie = "Adam";
         adam.nazwisko = "Kowalski";
         adam.nick = "Adas";
         adam.email = "Adam.Kowalski@gmail.com";
         adam.numerIndeksu = 12345;
+
+        String uczelniaAdama = adam.nazwaUczelni;
 
         adam.przedstawSie();
         adam.podajEmail();
